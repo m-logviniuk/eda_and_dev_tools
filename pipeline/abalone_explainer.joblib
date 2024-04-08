@@ -1,0 +1,21 @@
+explainer:
+  modelfile: model.pkl
+  datafile: data.csv
+  explainerfile: explainer.joblib
+  data_target: Age
+  data_index: null
+  explainer_type: regression
+  dashboard_yaml: dashboard.yaml
+  params:
+    shap: guess
+    model_output: raw
+    cats: null
+    descriptions: null
+    target: null
+    n_jobs: null
+    permutation_cv: null
+    cv: null
+    na_fill: -999
+    precision: float64
+    shap_kwargs: null
+    units: ''
