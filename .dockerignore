@@ -1,0 +1,25 @@
+# Explainer dill is environment-specific; serve rebuilds from model.joblib
+artifacts/explainer.dill
+artifacts/dashboard.yaml
+artifacts/metrics.json
+
+# Not needed in the runtime image
+reports/
+notebooks/
+tests/
+docs/
+scripts/
+.github/
+IMPROVEMENT_PLAN.md
+requirements-dev.txt
+
+# Python / tooling
+__pycache__
+*.py[cod]
+.pytest_cache
+.ruff_cache
+*.egg-info
+
+# Git
+.git
+.gitignore
