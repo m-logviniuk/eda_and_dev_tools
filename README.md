@@ -79,6 +79,13 @@ Hold-out test set (20%, `random_state=42`). Selected model: **Random Forest** (l
 
 Full details in `artifacts/metrics.json`. Diagnostic plots in `reports/figures/`.
 
+## Transferable skills
+
+- End-to-end ML workflow with a fixed train/test split and preprocessing in one `Pipeline`
+- Model comparison with cross-validation and bootstrap confidence intervals
+- Linting and automated tests in GitHub Actions
+- Dashboard packaged for local use and Docker
+
 ## Technology stack
 
 | Tool | Role in this project |
@@ -119,13 +126,6 @@ pytest
 ```
 
 CI runs Ruff + pytest on Python 3.10 and 3.12 (see `.github/workflows/ci.yml`).
-
-## Transferable skills
-
-- End-to-end ML workflow with a fixed train/test split and preprocessing in one `Pipeline`
-- Model comparison with cross-validation and bootstrap confidence intervals
-- Linting and automated tests in GitHub Actions
-- Dashboard packaged for local use and Docker
 
 ## How to run
 
